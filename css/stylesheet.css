@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  top: 0;
+  position: -webkit-sticky;
+  background-color: rosybrown;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  opacity: 0.9;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  position: relative;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: salmon;
+  padding: 5px;
+  border-radius: 45%;
+  opacity: 1;
+
+}
+
+
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 15px;
+  list-style: none;
+
+
+
+
+}
+
+header nav ul li a {
+  padding: 5px 5px;
+  font-weight: lighter;
+  font-size: 1.55vm;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: salmon;
+
+  opacity: 1;
+  margin: 0 10px 0 10px;
+
+
+
+}
+
+.hero-cta {
+  background-image: url("../css/images/background-header.jpg");
+  background-size: cover;
+  opacity: 0, 7;
+  text-align: end;
+  padding: 70px 20px 10px 0;
+  color: whitesmoke;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: lighter;
+
+}
+
+
+
+
+.hero-cta span {
+  font-weight: bolder;
+}
+
+.gradient-text {
+  /* standard gradient background */
+  background: linear-gradient(white, rgb(245, 245, 245, 0.3));
+
+  /* clip hackery */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.about-me h2 {
+  width: 30%;
+  margin: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+  text-align: right;
+  color: steelblue;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.flex-row {
+  padding: 20px;
+  color: steelblue;
+  width: 70%;
+}
+
+.border {
+  border-left: 3px solid steelblue;
+
+  margin: 20px 10px 20px 10px;
+
+
+}
+
+
+.work-grid-container {
+
+  display: grid;
+  grid-gap: 10px;
+  color: #024e76;
+  justify-content: flex-start;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+ 
+  border-left: 3px solid steelblue;
+width: 70%;
+padding: 20px ;
+  margin: 20px 10px 20px 10px;
+
+}
+
+.work-item1 {
+  grid-column: 1/ span 2;
+  grid-row: 1/ span 2;
+  border: 5px solid salmon;
+ 
+}
+
+.basic h3 {
+  background-color: salmon;
+  margin-top: 40%;
+  justify-content: left;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  font-weight: bolder;
+}
+.basic h3 a{
+ color: steelblue; 
+text-decoration: none;
+
+
+}
+
+
+
+.basic span {
+
+  font-style: italic;
+  font-weight: lighter;
+
+
+}
+
+.img {
+  background-image: url("../css/images/hero-bg.jpg");
+  background-size: cover;
+  transition-duration: 2s;
+
+}
+
+.work-item2 {
+  grid-column: 3;
+  grid-row: 1;
+  border: 5px solid salmon;
+  
+
+}
+
+.img2 {
+  background-image: url("../css/images/social-media-marketing.jpg");
+  background-size: cover;
+  transition-duration: 2s;
+
+}
+
+.work-item3 {
+  grid-column: 1;
+  grid-row: 3;
+  border: 5px solid salmon;
+ 
+}
+
+.img3 {
+  background-image: url("../css/images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  transition-duration: 2s;
+
+}
+
+.work-item4 {
+  grid-column: 2;
+  grid-row: 3;
+  border: 5px solid salmon;
+ 
+}
+
+.img4 {
+  background-image: url("../css/images/online-reputation-management.jpg");
+  background-size: cover;
+  transition-duration: 2s;
+
+}
+
+.work-item5 {
+  grid-column: 3;
+  grid-row: 2;
+  border: 5px solid salmon;
+ 
+}
+
+.img5 {
+  background-image: url("../css/images/search-engine-optimization.jpg");
+  background-size: cover;
+  position: relative;
+  transition-duration: 2s;
+
+}
+
+.img:hover, .img2:hover, .img3:hover, .img4:hover,.img5:hover{
+  background-color:salmon ;
+  opacity: 0.5;
+
+  
+   
+
+
+}
+
+.contact-ways{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+.contact h2 {
+ width: 20%;
+  margin: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+  text-align: right;
+  color: steelblue;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+ .flex{
+  padding: 20px;
+   width: 72%;
+   border-left: 3px solid steelblue;
+  margin: 20px 10px 20px 10px;
+
+ } 
+  
+  .flex a{
+    padding-right: 50px;
+  }
+ 
+
+
+
