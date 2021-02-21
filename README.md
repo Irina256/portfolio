@@ -13,4 +13,4 @@ A website that tells about my work experience
 
 https://irina256.github.io/portfolio/
 
-![Screenshot](css\images\1613869457024.png)
+![Screenshot](/images/1613869457024.png)
