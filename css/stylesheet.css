@@ -157,7 +157,7 @@ padding: 20px ;
   background-color: salmon;
   margin-top: 40%;
   justify-content: left;
-  margin-right: 30%;
+  margin-right: 10%;
   margin-bottom: 10%;
   font-weight: bolder;
 }
@@ -222,8 +222,8 @@ text-decoration: none;
 }
 
 .img4 {
-  background-image: url("../css/images/online-reputation-management.jpg");
-  background-size: cover;
+  background-image: url("../css/images/Shop.png");
+  background-size:395px 300px;
   transition-duration: 2s;
 
 }
